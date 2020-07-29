@@ -1,2 +1,3 @@
-# Proy_portafolio
-Boceto de maquetacion de pagina web: Portafolio
+###Boceto de Portafolio
+
+Maquetación y ejemplos con imágenes.

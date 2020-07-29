@@ -1,0 +1,274 @@
+/*
+Reglas
+Selectores
+Declaraciones
+Propiedades
+Valores
+*/
+
+body{
+    background: #97e5ef;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-style: initial;
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    background-color: #315b96 ;
+    color: white;
+    display: flex;
+    height: 120px;
+    justify-content: space-between;
+}
+.menu{
+    height: inherit;
+}
+.menu ul{
+    display: flex;
+    margin: 0px;
+    list-style: none;
+    height: inherit;
+}
+.menu ul li{
+    height: inherit;
+}
+.menu a{
+    color: white;
+    display: flex;
+    height: inherit;
+    margin: 0px 20px 0px 20px;
+    text-decoration: none;
+}
+.logo{
+    margin: 0px;
+}
+.logo img{
+    height: 100%;
+}
+.link a{
+    align-items: center;
+}
+.hero{
+    background-color: #315b96;
+    /*background-image: url(./Julian01.jpg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center right;*/
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.hero h1{
+    color: white;
+    font-size: 50px;
+    line-height: 1.5em;
+    letter-spacing: 5px;
+    padding-right: 5%;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.hero h1 strong{
+    color: #97e5ef;
+    letter-spacing: -.2px;
+}
+.hero__img{
+    width: 35%;
+    object-fit: cover;
+}
+.portfolio{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.portfolio h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 30px;
+}
+.proymain{
+    width: 95%;
+    /*
+    border-top: 10px solid white;
+    border-right: 10px solid red;
+    border-bottom: 10px solid blue;
+    border-left: 10px solid yellow;*/
+    border-color: #315b96;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 20px;
+    display: flex;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 50px;
+    font-size: 18px;
+    text-align: left;
+}
+.proyect__title{
+    text-transform: capitalize;
+    font-size: 25px;
+    font-weight: bold;
+}
+.proymain_imagecont{
+    justify-content: right;
+}
+h2{
+    padding-left: 20px;
+    text-transform: uppercase;
+}
+.eventos{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.eventos div{
+    width: 49%;
+    border-radius: 50px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 5px;
+    overflow: hidden;
+    padding: 5px;
+}
+.eventos__event{
+    align-items: center;
+    border-radius: inherit;
+    background-color: #315b96;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.eventos__event h2{
+    margin: 20px auto;
+    color: white;
+    align-self: flex-start;
+    position: absolute;
+    font-size: 130%;
+}
+.eventos__event__imagecontainer{
+    border-radius: 10px;
+    height: inherit;
+    justify-content: right;
+    margin: 0px;
+    overflow: hidden;
+}
+.eventos--image{
+    height: inherit;
+}
+.eventos__event div{
+    background-color: #97e5ef;
+    border-radius: 10px;
+    display: block;
+    height: 100px;
+    justify-content: right;
+    margin-top: -80px;
+    position: relative;
+    width: 450px;
+}
+.eventos__event--link{
+    border: 2px solid #315b96;
+    border-radius: 10px;
+    color: #315b96;
+    padding: 5px 20px;
+}
+.contact{
+    background-color: #315b96;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 200px;
+    margin: 0px;
+    text-align: left;
+}
+.contact__form{
+    background-color: #315b96;
+    color: white;
+    height: inherit;
+    margin: 0px;
+    padding-left: 20px;
+}
+.contact__form--title{
+    font-size: 25px;
+    margin: 0px 0px 10px 0px;
+    padding: 30px 15px;
+}
+.contact__form--label{
+    display: block;
+    margin-bottom: 5px;
+}
+.contact__form--input{
+    border-color: gray;
+    border-radius: 5px;
+    border-style: solid;
+    background-image: url('./mail.png');
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: 2px center;
+    padding: 5px 20px 5px 25px;
+}
+.contact__form--submit{
+    background: transparent;
+    border-radius: 5px;
+    color: white;
+    display: block;
+    margin: 10px 0 auto;
+    padding: 7px 0;
+    width: 100px;
+}
+.contact div{
+    background-color: #315b96;
+    display: flex;
+    justify-content: space-between;
+}
+.contact__social{
+    width: 50px;
+    height: 50px;
+    background-size: 50px 50px;
+}
+.contact__social.google{
+    background-image: url('./google-logo.png');
+}
+.contact__social.facebook{
+    background-image: url('./facebook-circled.png');
+}
+.contact__social.twitter{
+    background-image: url('./twitter-circled.png');
+}
+.contact__social.github{
+    background-image: url('./github-2.png');
+}
+.footer{
+    background-color: #315b96;
+    color: white;
+    display: flex;
+    margin-top: 0px;
+    justify-content: space-between;
+    height: 50px;
+}
+.footer__div2{
+    width: 250px;
+}
+.footer div p img{
+    height: 10%;
+    width: 10%;
+    vertical-align: middle;
+}
+.container{
+    border: 1px transparent;
+    width: 80%;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+}
