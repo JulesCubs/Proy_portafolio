@@ -15,11 +15,14 @@ body{
     padding: 0px;
 }
 .header{
-    background-color: #315b96 ;
+    background-color: #2f3e79;
     color: white;
     display: flex;
     height: 120px;
     justify-content: space-between;
+}
+.container {
+    display: inherit;
 }
 .menu{
     height: inherit;
@@ -45,12 +48,13 @@ body{
 }
 .logo img{
     height: 100%;
+    opacity: 0.2
 }
 .link a{
     align-items: center;
 }
 .hero{
-    background-color: #315b96;
+    background-color: #2f3e79;
     /*background-image: url(./Julian01.jpg);
     background-size: 50%;
     background-repeat: no-repeat;
@@ -95,7 +99,7 @@ body{
     border-right: 10px solid red;
     border-bottom: 10px solid blue;
     border-left: 10px solid yellow;*/
-    border-color: #315b96;
+    border-color: #2f3e79
     border-width: 5px;
     border-style: solid;
     border-radius: 20px;
@@ -138,7 +142,7 @@ h2{
 .eventos__event{
     align-items: center;
     border-radius: inherit;
-    background-color: #315b96;
+    background-color: #2f3e79;
     text-align: center;
     width: 100%;
     display: flex;
@@ -174,13 +178,13 @@ h2{
     width: 450px;
 }
 .eventos__event--link{
-    border: 2px solid #315b96;
+    border: 2px solid #2f3e79;
     border-radius: 10px;
     color: #315b96;
     padding: 5px 20px;
 }
 .contact{
-    background-color: #315b96;
+    background-color: #2f3e79;
     color: white;
     display: flex;
     align-items: center;
@@ -190,7 +194,7 @@ h2{
     text-align: left;
 }
 .contact__form{
-    background-color: #315b96;
+    background-color: #2f3e79;
     color: white;
     height: inherit;
     margin: 0px;
@@ -225,7 +229,7 @@ h2{
     width: 100px;
 }
 .contact div{
-    background-color: #315b96;
+    background-color: #2f3e79;
     display: flex;
     justify-content: space-between;
 }
@@ -247,7 +251,7 @@ h2{
     background-image: url('./github-2.png');
 }
 .footer{
-    background-color: #315b96;
+    background-color: #2f3e79;
     color: white;
     display: flex;
     margin-top: 0px;
