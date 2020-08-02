@@ -6,9 +6,18 @@
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
         <link rel="icon" type="image/png" href="./Logo.jpg">
         <link rel="stylesheet" href="./styles.css">
+        <!--link rel="stylesheet" href="./mediaq.css" media="screen and (max-width:768px)">
+        <style>
+            @media screen and (max-width: 768px) {
+                body {
+                    border: 10px solid green;
+                }
+            }
+        </style-->
         <title>Julián Cubillos</title>
     </head>
     <body>
+        <i class="icon-menu burguer__button" id="burguer-menu"></i>
        <header class="header">
            <div class="container">
                <figure class="logo">
@@ -26,32 +35,32 @@
        <section class="hero">
            <div class="container">
                 <h1>Hola! soy:<br/> <strong>Julián David Cubillos Ortegón <br/>Fullstack Developer </strong></h1>
-                <img class="hero__img" src="./Julian01.jpg" alt="Imagen de prueba">
+                <img class="hero__img" src="https://images.pexels.com/photos/2115217/pexels-photo-2115217.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Imagen de prueba">
            </div>
        </section>
        <section class="portfolio" id="portafolio">
            <div class="container">
                 <h2>Portafolio (proyectos destacados)</h2>
-                <article class="proymain">
+                <article class="projmain">
                     <div class="project">
-                        <h3 class="proyect__title">Platzi video</h3>
-                        <h6 class="proyect__course">Desarrollado con: ... </h6>
-                        <p class="proyect__date"><small><strong>Fecha:</strong>dd/mm/aa</small></p>
-                        <p class="proyect__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                        <h3 class="project__title">Platzi video</h3>
+                        <h6 class="project__course">Desarrollado con: ... </h6>
+                        <p class="project__date"><small><strong>Fecha:</strong>dd/mm/aa</small></p>
+                        <p class="project__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                     </div>
-                    <figure class="proymain__imagecont">
-                        <img class="proymain__imagecont--image" src="./1.jpg" width="300" height="300" alt="Imagen o foto">
+                    <figure class="projmain__imagecont">
+                        <img class="projmain__imagecont--image" src="https://images.pexels.com/photos/450035/pexels-photo-450035.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Imagen o foto">
                     </figure>
                 </article>
-                <article class="proymain">
+                <article class="projmain">
                     <div class="project">
-                        <h3 class="proyect__title">Platzi video</h3>
-                        <h6 class="proyect__course">Desarrollado con: ... </h6>
-                        <p class="proyect__date"><small><strong>Fecha:</strong>dd/mm/aa</small></p>
-                        <p class="proyect__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                        <h3 class="project__title">Platzi video</h3>
+                        <h6 class="project__course">Desarrollado con: ... </h6>
+                        <p class="project__date"><small><strong>Fecha:</strong>dd/mm/aa</small></p>
+                        <p class="project__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                     </div>
-                    <figure class="proymain__imagecont">
-                        <img class="proymain__imagecont--image" src="./1.jpg" width="300" height="300" alt="Imagen o foto">
+                    <figure class="projmain__imagecont">
+                        <img class="projmain__imagecont--image" src="https://images.pexels.com/photos/450035/pexels-photo-450035.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Imagen o foto">
                     </figure>
                 </article>
            </div>
@@ -59,83 +68,120 @@
         <div class="container">
             <h2>Otras actividades...</h2>
             <section class="eventos" id="eventos">
-                     <div>
-                         <article class="eventos__event">
-                             <h2>Mas contenido sobre la experiencia...</h2>
-                             <figure class="eventos__event__imagecontainer">
-                                 <img class="eventos--image" src="./BarçaSupercopa ag-2011.jpg" alt="Imagen o foto">
-                             </figure>
-                             <div>
-                                 <h3 class="eventos__event--title">Resumen supercopa 2011</h3>
-                                 <a class="eventos__event--link" href="https://www.youtube.com/watch?v=mOTswUc6bDo" target="_blank">Vinculo a:...</a>
-                             </div>
-                         </article>
-                     </div>
-                     <div>
-                         <article class="eventos__event">
-                             <h2>Mas contenido sobre la experiencia...</h2>
-                             <figure class="eventos__event__imagecontainer">
-                                 <img class="eventos--image" src="./BarçaSupercopa ag-2011.jpg" alt="Imagen o foto">
-                             </figure>
-                             <div>
-                                 <h3 class="eventos__event--title">Resumen supercopa 2011</h3>
-                                 <a class="eventos__event--link" href="https://www.youtube.com/watch?v=mOTswUc6bDo" target="_blank">Vinculo a:...</a>
-                             </div>
-                         </article>
-                     </div>
-                     <div>
-                         <article class="eventos__event">
-                             <h2>Mas contenido sobre la experiencia...</h2>
-                             <figure class="eventos__event__imagecontainer">
-                                 <img class="eventos--image" src="./BarçaSupercopa ag-2011.jpg" alt="Imagen o foto">
-                             </figure>
-                             <div>
-                                 <h3 class="eventos__event--title">Resumen supercopa 2011</h3>
-                                 <a class="eventos__event--link" href="https://www.youtube.com/watch?v=mOTswUc6bDo" target="_blank">Vinculo a:...</a>
-                             </div>
-                         </article>
-                     </div>
-                     <div>
-                         <article class="eventos__event">
-                             <h2>Mas contenido sobre la experiencia...</h2>
-                             <figure class="eventos__event__imagecontainer">
-                                 <img class="eventos--image" src="./BarçaSupercopa ag-2011.jpg" alt="Imagen o foto">
-                             </figure>
-                             <div>
-                                 <h3 class="eventos__event--title">Resumen supercopa 2011</h3>
-                                 <a class="eventos__event--link" href="https://www.youtube.com/watch?v=mOTswUc6bDo" target="_blank">Vinculo a:...</a>
-                             </div>
-                         </article>
-                     </div>
+                <div>
+                    <article class="eventos__event">
+                        <h2>Mas contenido sobre la experiencia...</h2>
+                        <figure class="eventos__event__imagecontainer">
+                            <video class="eventos--image" src="https://player.vimeo.com/external/368782010.sd.mp4?s=a1478e7348ee04a92761efb2a0420e5750604c38&profile_id=139&oauth2_token_id=57447761" controls></video>
+                        </figure>
+                        <!-- <div>
+                            <h3 class="eventos__event--title">Video</h3>
+                            <a class="eventos__event--link" href="https://www.pexels.com/es-es/buscar/videos/pc/" target="_blank">Vinculo a:...</a>
+                        </div> -->
+                    </article>
+                </div>
+                <div>
+                    <article class="eventos__event">
+                        <h2>Mas contenido sobre la experiencia...</h2>
+                        <figure class="eventos__event__imagecontainer">
+                            <video class="eventos--image" src="https://player.vimeo.com/external/357563488.sd.mp4?s=b1cfbc7c4eb11d8a10dc5dfe36ed63466cb3da61&profile_id=139&oauth2_token_id=57447761" controls></video>
+                        </figure>
+                        <!-- <div>
+                            <h3 class="eventos__event--title">Video</h3>
+                            <a class="eventos__event--link" href="https://www.pexels.com/es-es/buscar/videos/pc/" target="_blank">Vinculo a:...</a>
+                        </div> -->
+                    </article>
+                </div>
+                <div>
+                    <article class="eventos__event">
+                        <h2>Mas contenido sobre la experiencia...</h2>
+                        <figure class="eventos__event__imagecontainer">
+                            <video class="eventos--image" src="https://player.vimeo.com/external/368757701.sd.mp4?s=4afd5620c9338f836bdb9bc126ac0e6525ead07c&profile_id=139&oauth2_token_id=57447761" controls></video>
+                        </figure>
+                        <!-- <div>
+                            <h3 class="eventos__event--title">Video</h3>
+                            <a class="eventos__event--link" href="https://www.pexels.com/es-es/buscar/videos/pc/" target="_blank">Vinculo a:...</a>
+                        </div> -->
+                    </article>
+                </div>
+                <div>
+                    <article class="eventos__event">
+                        <h2>Mas contenido sobre la experiencia...</h2>
+                        <figure class="eventos__event__imagecontainer">
+                            <video class="eventos--image" src="https://player.vimeo.com/external/353535309.sd.mp4?s=bff61c23bc5a73d2f2b9235b175c2d604516f364&profile_id=139&oauth2_token_id=57447761" controls></video>
+                        </figure>
+                        <!-- <div>
+                            <h3 class="eventos__event--title">Video</h3>
+                            <a class="eventos__event--link" href="https://www.pexels.com/es-es/buscar/videos/pc/" target="_blank">Vinculo a:...</a>
+                        </div> -->
+                    </article>
+                </div>
             </section>
         </div>
-       <section class="contact" id="contacto">
-           <div class="container">
-                <form class="contact__form" action="/suscrpcion/">
-                    <h3 class="contact__form--title">¿Creamos algo juntos?</h3>
-                    <label class="contact__form--label">Dejame tu email</label>
-                    <input class="contact__form--input" type="datetime" placeholder="Adjunto contacto" id="email">
-                    <!--input class="contact__form--check" type="checkbox"-->
-                    <input class="contact__form--submit" type="submit" value="Añadir">
-                    <!--button>Enviar</button-->
-                </form>
+        <div class="container">
+            <section class="referencia">
+                <h2>Referencia a terceros</h2>
+                <p>"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga."</p>
                 <div>
-                    <a href="https://google.com" class="contact__social google"></a>
-                    <a href="https://facebook.com" class="contact__social facebook"></a>
-                    <a href="https://twitter.com" class="contact__social twitter"></a>
-                    <a href="https://github.com" class="contact__social github"></a>
+                    <iframe class="referencia__youtube" width="560" height="315" src="https://www.youtube.com/embed/s23nf1LiStE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
-           </div>
+            </section>
+        </div>
+      <section class="contact" id="contacto">
+            <form class="contact__form" action="/suscrpcion/">
+                <h3 class="contact__form--title">¿Creamos algo juntos?</h3>
+                <label class="contact__form--label">Dejame tu email</label>
+                <input class="contact__form--input" type="datetime" placeholder="Adjunto contacto" id="email">
+                <!--input class="contact__form--check" type="checkbox"-->
+                <input class="contact__form--submit" type="submit" value="Añadir">
+                <!--button>Enviar</button-->
+            </form>
+            <div>
+                <a href="https://google.com" class="icon-google contact__social google"></a>
+                <a href="https://facebook.com" class="icon-facebook2 contact__social facebook"></a>
+                <a href="https://twitter.com" class="icon-twitter contact__social twitter"></a>
+                <a href="https://github.com" class="icon-github contact__social github"></a>
+            </div>
         </section>
        <footer class="footer">
            <div class="container">
                 <div class="footer__div1">
-                    <p>Proyecto realizado en el curso de Desarrollo Web</p>
+                    <p>Proyecto realizado en el curso de Desarrollo Web y Responsive Design</p>
                 </div>
                 <div class="footer__div2">
                     <p>Realizado por Julián Cubillos <img src="./Logo.jpg" alt="Logo Julian"></p>
                 </div>
            </div>
        </footer>
+       <script>
+           console.log(window.matchMedia('screen and (max-width:767px)'));
+           const ipad = window.matchMedia('screen and (max-width:767px)');
+           
+           /* console.log(document.querySelector('.menu')); */
+           const menu = document.querySelector('.menu');
+           /* console.log(menu); */
+           const burguerButton = document.querySelector('#burguer-menu');
+           /* console.log(burguerButton); */
+           
+           burguerButton.addEventListener('click', hideShow)
+           ipad.addListener(validacion)
+
+           function validacion(evento) {
+               if(evento.matches) {
+                   burguerButton.addEventListener('click', hideShow);
+               } else {
+                burguerButton.removeEventListener('click', hideShow);
+               }
+               console.log(evento.matches);
+           }
+           
+           function hideShow() {
+               if(menu.classList.contains('is-active')) {
+                menu.classList.remove('is-active');
+               } else {
+                   menu.classList.add('is-active');
+               }
+           }
+       </script>
     </body>
 </html>
